@@ -1,0 +1,14 @@
+.flows_box {
+    // border: 4px solid #bbb;
+    border-radius: 4px;
+    height: 100%;
+}
+.step {
+    @apply bg-dark-100 text-primary-10 shadow-md;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
