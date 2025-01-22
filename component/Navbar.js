@@ -26,8 +26,8 @@ export default function Navbar(){
                     <div className="logo text-accent"><h3>YA</h3></div>
                     <ul className="text-dark-100 flex gap-[24px] text-m">
                         <li><Link href='/'>ABOUT</Link></li>
-                        <li>EXPERIENCE</li>
-                        <li>PORTOFOLIO</li>
+                        <li><Link href='/#experience'>EXPERIENCE</Link></li>
+                        <li><Link href='/#portofolio'>PORTOFOLIO</Link></li>
                     </ul>
                 </div>
             </nav>  

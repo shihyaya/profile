@@ -24,9 +24,9 @@ const exData=[{
 },]
 const Experiences = () => (
     <>
-        <div className="py-6 my-10">
+        <div id="experience" className="py-6 my-10 flex flex-col items-center">
             <Title title="工作經歷" subtitle="EXPERIENCE"></Title>
-                <div className="px-10 mt-6 mb-10 h-full">
+                <div className="px-10 mt-6 mb-10 h-full text-left">
                     {
                         exData.map((ex,i)=>{
                             return (
