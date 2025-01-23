@@ -6,7 +6,7 @@ export default function About() {
                 <div className="grid grid-cols-12 w-full my-10 items-center gap-0">
                     <div className="col-span-4 xl:col-span-2 lg:col-span-3 md:col-span-3 sm:col-span-4">
                         <div className="img_box pl-10">
-                            <img src='/profile/assets/shihya.jpg' className="bg-cover bg-no-repeat bg-contain"></img>
+                            <img src='./assets/shihya.jpg' className="bg-cover bg-no-repeat bg-contain"></img>
                         </div>
                         
                     </div>
