@@ -30,23 +30,42 @@ const portofolioData = [{
     describe:'網頁即時呈現GPS定位，可查看軌跡和當時飛行之資料，幫助賽鴿人員更清楚掌握鴿子的飛行狀況，以及適合的氣候與地形',
     response:'1. 平台功能設計與操作流程規劃<br>2. google map api串接<br>3.訂閱制規劃'
 },]
-
-const Portofolios = () =>(
-    <>
-        <div id="portofolio" className="py-6 my-10">
-            <Title title="作品集" subtitle="PORTOFOLIO"></Title>
-            <div className='grid grid-cols-1 lg:grid-cols-2 px-10 pt-6 items-stretch gap-2'>
-                {
-                    portofolioData.map((portofolio,i)=>{
-                        return (
-                            <>
-                                <Portofolio name={portofolio.name} subtitle={portofolio.subtitle} skill={portofolio.skill} job={portofolio.job} describe={portofolio.describe} response={portofolio.response} key={`portofolio_${i}`} id={i+1}></Portofolio>
-                            </>
-                        )
-                    })
-                }
+export default function Portofolios() {
+    return (
+        <>
+            <div id="portofolio" className="py-6 my-10">
+                <Title title="作品集" subtitle="PORTOFOLIO"></Title>
+                <div className='grid grid-cols-1 lg:grid-cols-2 px-10 pt-6 items-stretch gap-2'>
+                    {
+                        portofolioData.map((portofolio,i)=>{
+                            return (
+                                <div key={`portofolio_${i}`}>
+                                    <Portofolio name={portofolio.name} subtitle={portofolio.subtitle} skill={portofolio.skill} job={portofolio.job} describe={portofolio.describe} response={portofolio.response} id={i+1}></Portofolio>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </div>
-        </div>
-    </>
-)
-export { Portofolios };
+        </>
+    )
+}
+// const Portofolios = () =>(
+//     <>
+//         <div id="portofolio" className="py-6 my-10">
+//             <Title title="作品集" subtitle="PORTOFOLIO"></Title>
+//             <div className='grid grid-cols-1 lg:grid-cols-2 px-10 pt-6 items-stretch gap-2'>
+//                 {
+//                     portofolioData.map((portofolio,i)=>{
+//                         return (
+//                             <div key={`portofolio_${i}`}>
+//                                 <Portofolio name={portofolio.name} subtitle={portofolio.subtitle} skill={portofolio.skill} job={portofolio.job} describe={portofolio.describe} response={portofolio.response} id={i+1}></Portofolio>
+//                             </div>
+//                         )
+//                     })
+//                 }
+//             </div>
+//         </div>
+//     </>
+// )
+// export { Portofolios };

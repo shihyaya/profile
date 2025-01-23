@@ -3,7 +3,7 @@ import { useEffect,useRef } from 'react';
 export default function Flow({step,title}) {
     // 進入動畫
     const cardRef = useRef(null);
-    console.log(cardRef);
+    // console.log(cardRef);
     useEffect(() => {
         const handleScroll = () => {
             if (cardRef.current) {

@@ -41,19 +41,34 @@ const skillData = [{
     color: '#F79700',
     num: 80,
 },]
-
-const Skills = () => (
-    <>
-        <Title title="工作技能" subtitle="SKILLS"></Title>
-        <div className='grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 px-10 items-center'>
-            {
-                skillData.map((skill,i)=>{
-                    return (
-                        <Skill skill={skill.skill} icon={skill.icon} color={skill.color} num={skill.num} key={`skill_${i}`}></Skill>
-                    )
-                })
-            }
-        </div>
-    </>
-);
-export {Skills};
+export default function Skills() {
+    return (
+        <>
+            <Title title="工作技能" subtitle="SKILLS"></Title>
+            <div className='grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 px-10 items-center'>
+                {
+                    skillData.map((skill,i)=>{
+                        return (
+                            <Skill skill={skill.skill} icon={skill.icon} color={skill.color} num={skill.num} key={`skill_${i}`}></Skill>
+                        )
+                    })
+                }
+            </div>
+        </>
+    )
+}
+// const Skills = () => (
+//     <>
+//         <Title title="工作技能" subtitle="SKILLS"></Title>
+//         <div className='grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 px-10 items-center'>
+//             {
+//                 skillData.map((skill,i)=>{
+//                     return (
+//                         <Skill skill={skill.skill} icon={skill.icon} color={skill.color} num={skill.num} key={`skill_${i}`}></Skill>
+//                     )
+//                 })
+//             }
+//         </div>
+//     </>
+// );
+// export {Skills};

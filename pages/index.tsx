@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Layout from "../component/Layout";
-import { About } from "./template/about";
-import { Flows } from "./template/flows";
-import { Experiences } from "./template/experiences";
-import { Portofolios } from "./template/portofolios";
-import { Footer } from "./template/footer";
+import About from "./template/about";
+import Flows from "./template/flows";
+import Experiences from "./template/experiences";
+import Portofolios from "./template/portofolios";
+import Footer from "./template/footer";
 export default function Home() {
   return (
     <>

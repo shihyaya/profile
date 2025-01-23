@@ -10,7 +10,7 @@ export default function Navbar(){
             setNavbar(false);
         }
         window.addEventListener('scroll',()=>{
-            console.log(window);
+            // console.log(window);
             if(window.scrollY>=80) {
                 setNavbar(true);
             }else {

@@ -9,7 +9,7 @@ export default function Experience({company,job,startDate,endDate,describe,skill
                 </div>
                 <div className="right px-6">
                     <p className="text-dark-25 py-0 my-0 font-normal">{startDate} ~ {endDate}</p>
-                    <h6 className='text-dark-50 font-black py-0 my-0'>{company}</h6>
+                    <h6 className='text-dark-100 font-black py-0 my-0'>{company}</h6>
                     <h5 className='text-accent font-black  py-0 my-0 mb-2'>{job}</h5>
                     <span className='text-dark-100' dangerouslySetInnerHTML={{ __html: describe }}></span>
                     <br/><span className='text-dark-100 mt-2'>{skills}</span>

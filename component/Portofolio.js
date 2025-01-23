@@ -5,7 +5,7 @@ export default function Portofolio({name,subtitle,job,skill,describe,response,id
     const jobs = job;
     // 進入動畫
     const cardRef = useRef(null);
-    console.log(cardRef);
+    // console.log(cardRef);
     useEffect(() => {
         const handleScroll = () => {
             if (cardRef.current) {
@@ -46,7 +46,7 @@ export default function Portofolio({name,subtitle,job,skill,describe,response,id
                                 {
                                     skills.map((s,sid)=>{
                                         return (
-                                            <><p className='text-dark-100 inline-block px-1'> #{s} </p></>
+                                            <div key={`porto_skill_${sid}`} className='text-dark-100 inline-block px-1'><p> #{s} </p></div>
                                         )
                                     })
                                 }
@@ -55,9 +55,9 @@ export default function Portofolio({name,subtitle,job,skill,describe,response,id
                                 {
                                     jobs.map((j,jid)=>{
                                         return (
-                                            <>
-                                                <p className={`${styles.chip} inline-block px-3 py-1 my-2 mx-1 bg-dark-10 text-dark-100`}>{j}</p>
-                                            </>
+                                            <div key={`porto_job_${jid}`} className='inline-block'>
+                                                <p className={`${styles.chip} bg-dark-10 text-dark-100 px-3 py-1 my-2 mx-1`}>{j}</p>
+                                            </div>
                                         )
                                     })
                                 }
