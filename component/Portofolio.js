@@ -36,7 +36,7 @@ export default function Portofolio({name,subtitle,job,skill,describe,response,id
             <div ref={cardRef} className={`${styles.card} p-1 shadow-md h-full w-full`}>
                 <div className='flex flex-col p-4 items-center  w-full h-full md:flex-row md:items-stretch'>
                     <div className='w-full h-[300px] md:h-full'>
-                        <div className={`${styles.portofolio} h-full w-full`} style={{'backgroundImage':`url('./assets/portofolio/${id}.png')`}}></div>
+                        <div className={`${styles.portofolio} h-full w-full`} style={{'backgroundImage':`url('/profile/assets/portofolio/${id}.png')`}}></div>
                     </div>
                     <div className='w-full h-full'>
                         <div className={`${styles.content} px-4 py-3 bg-primary-25  h-full`}>

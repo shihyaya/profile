@@ -31,7 +31,7 @@ export default function Flow({step,title}) {
     return (
         <div ref={cardRef} className='relative'>
             <div className={`${styles.flows_box} border-accent border-2 border-solid flex flex-col items-center justify-center py-4 px-3 h-full xl:py-8 lg:py-6 md:py-4`}>
-                <img src={`./assets/flow/${step}.png`}></img>
+                <img src={`/profile/assets/flow/${step}.png`}></img>
                 <span className='text-dark-100 my-4 font-black text-center'>{title}</span>
             </div>
             <div className={`${styles.step}`}><p className='position-center p-0 m-0'>{step}</p></div>
