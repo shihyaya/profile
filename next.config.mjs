@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true, // Disable default image optimization
   },
   assetPrefix: isProd ? '/profile' : '',
-  basePath: isProd ? '/profile' : '',
+  basePath: '/profile',
   output: 'export'
 };
 
