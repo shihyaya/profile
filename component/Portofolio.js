@@ -1,4 +1,4 @@
-import styles from '@/styles/portofolio.module.scss';
+import styles from '../styles/portofolio.module.scss';
 import { useEffect,useRef } from 'react';
 export default function Portofolio({name,subtitle,job,skill,describe,response,id}) {
     const skills = skill;
