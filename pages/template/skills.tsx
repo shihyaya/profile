@@ -4,7 +4,7 @@ const skillData = [{
     skill: 'Angular',
     icon: 'A',
     color: '#DD0031',
-    num: 75,
+    num: 70,
 },{
     skill: 'Vue2 + Nuxt2',
     icon: 'V',

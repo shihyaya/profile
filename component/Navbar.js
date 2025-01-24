@@ -17,17 +17,17 @@ export default function Navbar(){
                 setNavbar(false);
             }
         })
-    })
+    },[])
     
     return(
         <>
             <nav className={`${navbar ? styles.active:''} navbar fixed w-full px-10 top-0 left-0`}>
                 <div className="container flex justify-between items-center mx-auto flex-col sm:flex-row">
-                    <div className="logo text-accent"><h3>YA</h3></div>
-                    <ul className="text-dark-100 flex gap-[24px] text-m">
-                        <li><Link href='/'>ABOUT</Link></li>
-                        <li><Link href='/#experience'>EXPERIENCE</Link></li>
-                        <li><Link href='/#portofolio'>PORTFOLIO</Link></li>
+                    <div className="logo text-accent"><h3><Link href='/'>YA</Link></h3></div>
+                    <ul className="flex gap-[24px] text-m">
+                        <li className='text-dark-100 hover:text-accent'><Link href='/'>ABOUT</Link></li>
+                        <li className='text-dark-100 hover:text-accent'><Link href='/#experience'>EXPERIENCE</Link></li>
+                        <li className='text-dark-100 hover:text-accent'><Link href='/#portofolio'>PORTFOLIO</Link></li>
                     </ul>
                 </div>
             </nav>  

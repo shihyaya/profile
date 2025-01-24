@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 export default function Skill({skill,icon,color,num}) {
     const [isVisible, setIsVisible] = useState(false);
     useEffect(() => {
-    setIsVisible(true); // 当组件挂载后，触发动画效果
+        setIsVisible(true); // 当组件挂载后，触发动画效果
     }, []);
     return (
         <>
