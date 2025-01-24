@@ -33,7 +33,7 @@ const portofolioData = [{
 export default function Portofolios() {
     return (
         <>
-            <div id="portofolio" className="py-6 my-10">
+            <div id="portfolio" className="py-6 my-10">
                 <Title title="作品集" subtitle="PORTFOLIO"></Title>
                 <div className='grid grid-cols-1 lg:grid-cols-2 px-10 pt-6 items-stretch gap-2'>
                     {

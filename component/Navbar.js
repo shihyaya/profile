@@ -27,7 +27,7 @@ export default function Navbar(){
                     <ul className="flex gap-[24px] text-m">
                         <li className='text-dark-100 hover:text-accent'><Link href='/'>ABOUT</Link></li>
                         <li className='text-dark-100 hover:text-accent'><Link href='/#experience'>EXPERIENCE</Link></li>
-                        <li className='text-dark-100 hover:text-accent'><Link href='/#portofolio'>PORTFOLIO</Link></li>
+                        <li className='text-dark-100 hover:text-accent'><Link href='/#portfolio'>PORTFOLIO</Link></li>
                     </ul>
                 </div>
             </nav>  
