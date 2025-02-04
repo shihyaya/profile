@@ -28,7 +28,7 @@ const portofolioData = [{
     skill:['Angular','Figma','Amcharts','Material'],
     job:['介面設計','程式撰寫','串接API'],
     describe:'網頁即時呈現GPS定位，可查看軌跡和當時飛行之資料，幫助賽鴿人員更清楚掌握鴿子的飛行狀況，以及適合的氣候與地形',
-    response:'1. 平台功能設計與操作流程規劃<br>2. google map api串接<br>3. 訂閱制規劃'
+    response:'1. 平台功能設計與操作流程規劃<br>2. google map API串接<br>3. 訂閱制規劃'
 },]
 export default function Portofolios() {
     return (

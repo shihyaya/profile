@@ -1,6 +1,6 @@
 import Title from '../../component/Title';
 import Flow from '../../component/Flow';
-const flowData = ['需求確立','規劃設計','前端程式/ api串接','使用者回饋','維護調整']
+const flowData = ['需求確立','規劃設計','程式撰寫','使用者回饋','維護調整']
 export default function Flows() {
     return (
         <>
