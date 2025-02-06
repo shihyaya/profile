@@ -4,7 +4,7 @@ const exData=[{
     company: '艾滴科技股份有限公司',
     job: '前端工程師',
     startDate: '2023/08',
-    endDate:'',
+    endDate:'2025/02',
     describe: '1. 網頁設計：網站功能與頁面規劃設計。<br>2. 網頁前端程式撰寫：依據頁面規劃與設計，使用Vue或React框架製作。<br>3. API串接：與後端API進行串接(Axios)。',
     skills: '使用技能：Vue、React、Html、Javascript、Css/Sass、Figma'
 },{

@@ -16,3 +16,10 @@
 .chip {
     border-radius: 20px;
 }
+.company {
+    @apply bg-dark-100 text-primary-10 shadow-md;
+    border-radius: 4px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}

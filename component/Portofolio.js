@@ -1,6 +1,6 @@
 import styles from '../styles/portofolio.module.scss';
 import { useEffect,useRef } from 'react';
-export default function Portofolio({name,subtitle,job,skill,describe,response,id}) {
+export default function Portofolio({name,subtitle,job,skill,describe,response,company,id}) {
     const skills = skill;
     const jobs = job;
     // 進入動畫
@@ -37,6 +37,7 @@ export default function Portofolio({name,subtitle,job,skill,describe,response,id
                 <div className='flex flex-col p-4 items-center  w-full h-full md:flex-row md:items-stretch'>
                     <div className='w-full h-[300px] md:h-full'>
                         <div className={`${styles.portofolio} h-[300px] w-full bg-contain md:bg-contain md:h-full sm:bg-auto`} style={{'backgroundImage':`url('./assets/portofolio/${id}.png')`}}></div>
+                        <div className={`${styles.company} px-2`}><p className='text-white text-center'>{company}</p></div>
                     </div>
                     <div className='w-full h-full'>
                         <div className={`${styles.content} px-4 py-3 bg-primary-25  h-full`}>
