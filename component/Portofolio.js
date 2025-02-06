@@ -5,7 +5,6 @@ export default function Portofolio({name,subtitle,job,skill,describe,response,co
     const jobs = job;
     // 進入動畫
     const cardRef = useRef(null);
-    // console.log(cardRef);
     useEffect(() => {
         const handleScroll = () => {
             if (cardRef.current) {
@@ -35,7 +34,7 @@ export default function Portofolio({name,subtitle,job,skill,describe,response,co
         <>
             <div ref={cardRef} className={`${styles.card} p-1 shadow-md h-full w-full`}>
                 <div className='flex flex-col p-4 items-center  w-full h-full md:flex-row md:items-stretch'>
-                    <div className='w-full h-[300px] md:h-full'>
+                    <div className='w-full h-[300px] md:h-full relative'>
                         <div className={`${styles.portofolio} h-[300px] w-full bg-contain md:bg-contain md:h-full sm:bg-auto`} style={{'backgroundImage':`url('./assets/portofolio/${id}.png')`}}></div>
                         <div className={`${styles.company} px-2`}><p className='text-white text-center'>{company}</p></div>
                     </div>
