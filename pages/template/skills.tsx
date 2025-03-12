@@ -6,7 +6,7 @@ const skillData = [{
     color: '#DD0031',
     num: 70,
 },{
-    skill: 'Vue2 + Nuxt2',
+    skill: 'Vue',
     icon: 'V',
     color: '#00DC82',
     num: 65,
@@ -53,6 +53,11 @@ export default function Skills() {
                         )
                     })
                 }
+            </div>
+            <div className='px-10 py-4'>
+                <h6 className='text-accent font-bold'>前端技術：</h6><span className='text-dark-100'>可獨立完成系統網站規劃、前端程式撰寫，RWD響應設計，及串接後端API。</span>
+                <br />
+                <h6 className='text-accent font-bold'>後端技術：</h6><span className='text-dark-100'>1. 略懂資料庫CRUD運作與後端API，曾使用GCP架設網站，運用Vue+MySQL+Express API完成小型包含CRUD的測試網站。<br />2. 目前正在學習ASP.NET Core MVC、ASP.NET Core Web API 、LINQ。</span>
             </div>
         </>
     )
