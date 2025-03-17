@@ -16,19 +16,19 @@ const skillData = [{
     color: '#087EA4',
     num: 30,
 },{
+    skill: 'ASP.NET Core MVC',
+    icon: 'N',
+    color: '#AE8DC0',
+    num: 40,
+},{
     skill: 'Javascript',
     icon: 'J',
     color: '#F7D900',
     num: 70,
 },{
-    skill: 'Html',
+    skill: 'Html/ Css/ Scss',
     icon: 'H',
     color: '#DE4B26',
-    num: 80,
-},{
-    skill: 'Css/ Scss/ Sass',
-    icon: 'C',
-    color: '#653196',
     num: 75,
 },{
     skill: 'Figma',

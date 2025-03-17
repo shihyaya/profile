@@ -33,6 +33,14 @@ const portofolioData = [{
     describe:'網頁即時呈現GPS定位，可查看軌跡和當時飛行之資料，幫助賽鴿人員更清楚掌握鴿子的飛行狀況，以及適合的氣候與地形',
     response:'1. 平台功能設計與操作流程規劃<br>2. google map API串接<br>3. 訂閱制規劃',
     company:'迅易'
+},{
+    name:'EDMS',
+    subtitle:'員工部門管理系統',
+    skill:['ASP.NET Core MVC','Bootstrap','MS SQL','Amcharts'],
+    job:['介面設計','程式撰寫','串接資料庫'],
+    describe:'學習ASP.NET Core MVC架構及MS SQL，嘗試建置小型包含CRUD的專案',
+    response:'1. ASP.NET Core MVC學習<br>2. MS SQL 學習<br>3. LINQ學習',
+    company:'學習'
 },]
 export default function Portofolios() {
     return (
